@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-module",
+  "version": "1.0.0",
+  "description": "My ace Nuxt.js project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "nuxt": "^2.13.1",
+    "svg-transform-loader": "^2.0.13"
+  },
+  "devDependencies": {
+    "less": "^3.11.3",
+    "less-loader": "^6.1.2"
+  }
+}

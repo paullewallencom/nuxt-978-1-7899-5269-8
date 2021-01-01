@@ -1,0 +1,22 @@
+{
+  "name": "server-middleware-koa",
+  "version": "1.0.0",
+  "description": "server middleware basic sample with koa",
+  "author": "Lau Tiam Kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie": "^0.4.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.0.1",
+    "koa-session": "^6.0.0",
+    "nuxt": "^2.14.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "apollo-server-sample",
+  "version": "1.0.0",
+  "description": "My GraphQL project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mixins",
+  "version": "1.0.0",
+  "description": "My smashing Nuxt.js project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "nuxt": "^2.13.2"
+  }
+}

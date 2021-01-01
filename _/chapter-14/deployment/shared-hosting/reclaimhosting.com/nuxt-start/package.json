@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-start-sample",
+  "version": "1.0.0",
+  "description": "My marvelous Nuxt.js project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "nuxt": "^2.14.0",
+    "nuxt-start": "^2.14.0"
+  }
+}

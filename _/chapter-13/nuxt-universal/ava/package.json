@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-e2e-tests",
+  "version": "1.0.0",
+  "description": "My legendary Nuxt.js project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "test": "ava --verbose",
+    "test:watch": "ava --watch"
+  },
+  "ava": {
+    "require": [
+      "./setup.js",
+      "@babel/polyfill"
+    ],
+    "files": [
+      "test/**/*"
+    ]
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/proxy": "^2.0.0",
+    "cookie": "^0.4.1",
+    "googleapis": "^52.1.0",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.13.2",
+    "query-string": "^6.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/register": "^7.10.3",
+    "ava": "^3.9.0",
+    "jsdom": "^16.2.2"
+  }
+}

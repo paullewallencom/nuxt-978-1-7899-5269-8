@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-koa-socket.io",
+  "version": "1.0.0",
+  "description": "My phenomenal Nuxt.js project",
+  "author": "Lau Tiam kok",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/proxy": "^2.0.0",
+    "axios": "^0.19.2",
+    "nuxt": "^2.13.3",
+    "socket.io-client": "^2.3.0"
+  }
+}
